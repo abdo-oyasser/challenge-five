@@ -1,0 +1,117 @@
+:root {
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: #fffdfa;
+    --Grayish-blue: #c5c6ce;
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav .navbar-brand {
+    margin-left: 0;
+
+}
+
+nav ul li {
+    padding: 0.5rem 0.5rem;
+}
+
+nav ul li a:not(.active):not(a:hover) {
+    color: var(--Dark-grayish-blue) !important;
+}
+
+.content h1 {
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+p {
+    color: var(--Dark-grayish-blue);
+    font-size: 15px;
+}
+
+.para .btn {
+    background-color: var(--Soft-red);
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 0.8rem 2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.content {
+    justify-content: space-between;
+}
+
+.side {
+    background-color: var(--Very-dark-blue);
+    padding: 2rem;
+}
+
+.side .side-content {
+    height: 100%;
+}
+
+.side .side-content h2 {
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.side .side-content p {
+    color: var(--Grayish-blue);
+    margin-bottom: 1rem;
+}
+
+.side .side-content hr {
+    color: var(--Grayish-blue);
+    margin: 2rem 0;
+    display: block;
+}
+
+.side .side-content span {
+    color: var(--Soft-orange);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0 0 1.6rem 0;
+    display: block;
+}
+
+.token {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.token img {
+    width: 30%;
+}
+
+.token span {
+    color: var(--Grayish-blue);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.token h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.token p {
+    color: var(--Dark-grayish-blue);
+    line-height: 2rem;
+    margin-bottom: 0;
+}
+
+.token .token-text {
+    padding-left: 20px;
+}
